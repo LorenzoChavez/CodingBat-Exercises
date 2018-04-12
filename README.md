@@ -1,3 +1,5 @@
-This repository contains solutions to Python exercises from CodingBat.
+##CodingBat
+
+This repository contains solutions to the Python exercises from CodingBat.
 
 codingbat.com
