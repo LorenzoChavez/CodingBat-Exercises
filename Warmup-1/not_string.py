@@ -2,9 +2,7 @@
 # However, if the string already begins with "not", return the string unchange
 
 def not_string(str):
-  
-  result = 0
-  
+  result = 0  
   if str[:3] == 'not':
     result = str
   else:
