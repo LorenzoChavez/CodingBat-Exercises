@@ -7,12 +7,6 @@ def cigar_party(cigars, is_weekend):
   upper = cigars <= 60
   lower = cigars >= 40
   if is_weekend == False:
-    if upper and lower:
-      return True
-    else:
-      return False
+    return (upper and lower)
   else:
-    if lower:
-      return True
-    else:
-      return False
+    return lower
